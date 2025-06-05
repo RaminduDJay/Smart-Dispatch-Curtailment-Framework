@@ -1,0 +1,8 @@
+device_id: inverter-001
+modbus:
+  address: 1
+  interval_seconds: 5
+mqtt:
+  broker: localhost
+  port: 1883
+  topic: feeder1/inverter/data
